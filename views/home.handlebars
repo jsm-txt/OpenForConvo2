@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>chat</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  .nav-bar {
+    background-color: #b9d7ed;
+  }
+
+  a {
+    color: #098cf0;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #146dba;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .button-row>.btn {
+    margin-left: 8px;
+  }
+
+  .btn {
+    background-color: #379eed;
+    color: white;
+  }
+
+  .content {
+    background-color: #d8ebf9;
+    border-radius: .2rem;
+  }
+
+  /* Icons example from ww3 */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+</style>
+
+<body>
+  <nav class="container-fluid pb-1 nav-bar">
+    <div class="row">
+      <div class="col p-2">
+        <h1 class=""><a href="/">OpenForConversation</a></h1>
+      </div>
+      <div class="button-row col d-flex p-3 justify-content-end">
+        <a href="/chat-room" class="btn navbar-btn">Home</a>
+        <a href="/" class="btn navbar-btn">Profile</a>
+        <a href="/chat-room" class="btn navbar-btn">Chat room</a>
+        <a href="/chat-room" class="btn navbar-btn"> Create a chat room</a>
+        <a href="/chat-room" class="btn navbar-btn"> Sign up</a>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="content mt-4 container-sm">
+    <div class="row pt-3 d-flex justify-content-around">
+      <div class="card mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Chat rooms are back!</h5>
+          <p class="card-text">The best part of the internet is back and better.
+            Chat with many kinds of people and more across the world. Join the conversation.</p>
+          <a href="/chat-room" class="btn navbar-btn">Chat room</a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 18rem;">
+       
+        <div class="card-body">
+          <h5 class="card-title">Follow us!</h5>
+          <p class="card-text">Support us and follow us on social media</p>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 18rem;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Sign up!</h5>
+          <p class="card-text">Sign up and get chatting today!</p>
+          <a href="/chat-room" class="btn navbar-btn"> Sign up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="content mt-4 container-sm">
+    <div class="row pt-3 d-flex justify-content-around">
+      <div class="card mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Chat News</h5>
+          <p class="card-text">Chat current news</p>
+          <a href="/chat-room/news" class="btn navbar-btn">Chat room</a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 18rem;">
+       
+        <div class="card-body">
+          <h5 class="card-title">Chat Sports</h5>
+          <p class="card-text">Chat about your favorite sports teams!</p>
+          <a href="/chat-room/sports" class="btn navbar-btn">Chat room</a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 18rem;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Chat TV</h5>
+          <p class="card-text">Chat about your favorite tv shows!</p>
+          <a href="/chat-room" class="btn navbar-btn">Chat room</a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 18rem;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Chat Fiction</h5>
+          <p class="card-text">Chat your favorite Stephen King book</p>
+          <a href="/chat-room" class="btn navbar-btn"> Chat room </a>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-3 d-flex justify-content-around">
+      <div class="card mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Chat Science</h5>
+          <p class="card-text">Chat with Bill Nye the science guy!</p>
+          <a href="/chat-room" class="btn navbar-btn">Chat room</a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 18rem;">
+       
+        <div class="card-body">
+          <h5 class="card-title">Chat Physics</h5>
+          <p class="card-text">Use big words to fit in</p>
+          <a href="/chat-room" class="btn navbar-btn">Chat room</a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 18rem;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Chat Math</h5>
+          <p class="card-text">Chat about your math homework!</p>
+          <a href="/chat-room" class="btn navbar-btn">Chat room</a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 18rem;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Chat random</h5>
+          <p class="card-text">Enter random room at your own risk!</p>
+          <a href="/chat-room" class="btn navbar-btn"> RANDOM</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+{{!-- <script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+
+  var messages = document.getElementById('messages');
+  var form = document.getElementById('form');
+  var input = document.getElementById('input');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    if (input.value) {
+      socket.emit('chat message', input.value);
+      input.value = '';
+    }
+  });
+
+  socket.on('chat message', function(msg) {
+    var item = document.createElement('li');
+    item.textContent = msg;
+    messages.appendChild(item);
+    window.scrollTo(0, document.body.scrollHeight);
+  });
+</script> --}}
+
+
+{{!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Chat js</title>
+  </head>
+  <body>
+    <h1>OpenForConversation</h1>
+    <a href="/chat-room" class="btn btn-primary navbar-btn">Chat Room</a>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html> --}}
